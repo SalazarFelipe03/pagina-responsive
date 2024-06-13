@@ -17,5 +17,24 @@ button{
     font-size: 1.25em;
     font-weight: bold;
     padding: 10px 16px;
-    border-radius: 26px;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: rgb(138, 44, 226);
+}
+
+button:hover{
+    background-color: rgb(132, 64, 197);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: beige;
+}
+header .logo{
+    margin: 0;
 }
